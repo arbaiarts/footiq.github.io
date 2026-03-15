@@ -475,8 +475,16 @@ input {
   min-width: 150px;
 }
 
-.stat-number, .stat-value, .stat-icon {
+.stat-number, .stat-value {
   font-family: var(--font-heading);
+  font-size: 3rem;
+  color: var(--color-aurora);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 15px rgba(26,255,78,0.2);
+}
+
+.stat-icon {
   font-size: 3rem;
   color: var(--color-aurora);
   line-height: 1;
